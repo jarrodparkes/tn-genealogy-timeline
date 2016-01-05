@@ -181,6 +181,12 @@ header h1 {
 .cd-timeline-img.cd-icon-black {
   background: #000000;
 }
+.cd-timeline-img.cd-icon-brown {
+  background: #c07e1c;
+}
+.cd-timeline-img.cd-icon-grey {
+  background: #696a7d;
+}
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
