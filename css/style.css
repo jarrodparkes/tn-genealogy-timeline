@@ -163,6 +163,24 @@ header h1 {
 .cd-timeline-img.cd-location {
   background: #f0ca45;
 }
+.cd-timeline-img.cd-icon-red {
+  background: #c03b44;
+}
+.cd-timeline-img.cd-icon-green {
+  background: #75ce66;
+}
+.cd-timeline-img.cd-icon-yellow {
+  background: #f0ca45;
+}
+.cd-timeline-img.cd-icon-blue {
+  background: #2283f0;
+}
+.cd-timeline-img.cd-icon-orange {
+  background: #f0a705;
+}
+.cd-timeline-img.cd-icon-black {
+  background: #000000;
+}
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
