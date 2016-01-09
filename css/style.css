@@ -59,21 +59,49 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
-header {
+.flag {
+  position: relative;
   height: 200px;
   line-height: 200px;
   text-align: center;
-  background: #303e49;
+  background: #cc0000;
+  background-image: url("../img/header.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 160px; 
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: inherit;
+  background: #002d65;
+  border-left: 10px solid #ffffff;
+}
+header {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+header::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
 }
 header h1 {
-  color: white;
+  color: #303e49;
   font-size: 18px;
   font-size: 1.125rem;
+  text-align: center;
+  margin-top: 50px;
 }
 @media only screen and (min-width: 1170px) {
-  header {
+  .flag {
     height: 300px;
     line-height: 300px;
+    background-size: 240px;
   }
   header h1 {
     font-size: 24px;
